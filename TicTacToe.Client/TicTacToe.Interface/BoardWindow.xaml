@@ -1,0 +1,41 @@
+﻿<Window x:Class="TicTacToe.Interface.BoardWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TicTacToe.Interface"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Height="750" Width="950" 
+        MinHeight="600" MinWidth="750"
+        Title="Tic tac toe"
+        Background="#2C2F33"
+        SizeChanged="OnWindowSizeChanged">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3.5*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <Canvas x:Name="GameCanvas" Grid.Column="0" Grid.Row="0" Background="#2C2F33" MouseLeftButtonDown="Canvas_MouseLeftButtonDown"/>
+
+        <StackPanel Grid.Column="1" Grid.Row="0" VerticalAlignment="Stretch" Background="#23272A">
+
+            <Label Content="Players" FontSize="16" FontWeight="Bold" Foreground="White" HorizontalAlignment="Center" />
+
+            <StackPanel Margin="10">
+                <Label x:Name="Player1Label" FontSize="14" FontWeight="Bold" Foreground="White" />
+                <Label x:Name="Player2Label" FontSize="14" FontWeight="Bold" Foreground="White" />
+            </StackPanel>
+
+            <Label x:Name="TurnLabel" FontSize="14" FontWeight="Bold" Foreground="LightGreen" HorizontalAlignment="Center" Margin="10, 20, 10, 0" />
+
+            <ListBox x:Name="Logs" Background="#2C2F33" Foreground="White" BorderThickness="1" Margin="10,20,10,5" FontStyle="Italic" FontSize="14" Height="300" />
+        </StackPanel>
+    </Grid>
+</Window>

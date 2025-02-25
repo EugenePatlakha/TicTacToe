@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToe.Game", "TicTacToe.Game\TicTacToe.Game.csproj", "{6206459B-F3CF-4518-B611-25276F2356DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToe.Service", "TicTacToe.Service\TicTacToe.Service.csproj", "{A05CC737-5B27-43F3-B6CC-DA465296BAD0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6206459B-F3CF-4518-B611-25276F2356DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6206459B-F3CF-4518-B611-25276F2356DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6206459B-F3CF-4518-B611-25276F2356DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6206459B-F3CF-4518-B611-25276F2356DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A05CC737-5B27-43F3-B6CC-DA465296BAD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A05CC737-5B27-43F3-B6CC-DA465296BAD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A05CC737-5B27-43F3-B6CC-DA465296BAD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A05CC737-5B27-43F3-B6CC-DA465296BAD0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC2B6D0D-349B-4EF1-A54E-843F261D7E34}
+	EndGlobalSection
+EndGlobal
